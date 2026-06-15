@@ -1,0 +1,120 @@
+.tableWrapper {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.labelCol {
+  width: 130px;
+  min-width: 110px;
+}
+
+.productCol {
+  min-width: 150px;
+}
+
+thead tr {
+  background: #f9fafb;
+}
+
+th {
+  padding: 12px 14px;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 600;
+  color: #374151;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+td {
+  padding: 10px 14px;
+  font-size: 13px;
+  color: #374151;
+  border-bottom: 1px solid #f3f4f6;
+  vertical-align: middle;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.diffRow td {
+  background: #fffbeb;
+}
+
+.labelCell {
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.diffBadge {
+  color: #f59e0b;
+  margin-right: 5px;
+  font-size: 10px;
+}
+
+.productHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.productName {
+  font-size: 13px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 2px;
+}
+
+.productCategory {
+  font-size: 11px;
+  color: #9ca3af;
+}
+
+.removeBtn {
+  background: none;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #9ca3af;
+  font-size: 11px;
+  padding: 3px 6px;
+  line-height: 1;
+  flex-shrink: 0;
+  transition: background 0.1s, color 0.1s;
+}
+
+.removeBtn:hover {
+  background: #fee2e2;
+  color: #ef4444;
+  border-color: #fca5a5;
+}
+
+.empty {
+  border: 1.5px dashed #e5e7eb;
+  border-radius: 12px;
+  padding: 2.5rem;
+  text-align: center;
+  color: #9ca3af;
+  font-size: 14px;
+}
+
+.legend {
+  padding: 8px 14px;
+  font-size: 12px;
+  color: #9ca3af;
+  border-top: 1px solid #f3f4f6;
+  background: #f9fafb;
+}
+
+.legendDot {
+  color: #f59e0b;
+  margin-right: 4px;
+}
